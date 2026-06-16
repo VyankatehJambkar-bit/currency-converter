@@ -38,7 +38,7 @@ body{
     background-color: wheat;
     background-image:
      linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
-     url(carl-wang-OCe8cTGymSQ-unsplash.jpg);
+     url('carl-wang-OCe8cTGymSQ-unsplash.jpg');
     background-size: cover;
     
 }
