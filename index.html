@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currency converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="contener">
+        <div class="heading">
+            <i class="fa-solid fa-coins"></i>
+            <h1>currency converter</h1>
+        </div>
+        
+        <form>
+            <div class="amount">
+                <p id="amount">Amount </p>
+                <input id="amount-input">
+            </div>
+            <div class="converter-box">
+                <div class="from">
+                    <P id="from">From</P>
+                    <div class="dropDown" id="from-select">
+                        <img src="https://flagsapi.com/US/flat/64.png" id="from-image">
+                        <select name="from">
+                                                     
+                        </select>
+                    </div>
+
+                </div>
+                <div class="coverter-logo">
+                    <i class="fa-solid fa-right-left"></i>
+                </div>
+                <div class="to">
+                    <P id="to">To</P>
+                    <div class="dropDown" id="to-select">
+                        <img src="https://flagsapi.com/IN/flat/64.png" id="to-image">
+                        <select name="to">
+                            
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+            <div class="message-box">
+                <p>Exchange Rate :</p>
+                <h4 id="exchange"></h4> 
+            </div>
+            <button> get exchange rate</button>
+        </form>
+    </div>
+    <script src="code.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
